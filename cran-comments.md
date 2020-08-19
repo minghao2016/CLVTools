@@ -7,8 +7,9 @@ Further, documentation and walkthrough were improved in many places.
 ## Test environments
 
 ## Testthat
-A total of XXXX (local: XXX) tests provide coverage of roughly 95 percent (covr) and ensure that all functionalities work correctly for all models in all settings
-* ubuntu 16.04, R 4.0.XXX (on github-actions)
+A total of XXXX (local: XXX) tests provide coverage of roughly 92 percent (covr) and ensure that all functionalities work correctly for all models in all settings
+* ubuntu 16.04, R 4.0.2 (on github-actions)
+* Winbuilder devel, release, and old-release
 * Windows Server 2008 R2 SP1, R-devel, 32/64 bit (rhub check_for_cran)
 * Debian Linux, R-devel, GCC  (rhub check_for_cran)
 * Ubuntu Linux 16.04 LTS, R-release, GCC (rhub check_for_cran)
@@ -17,4 +18,4 @@ A total of XXXX (local: XXX) tests provide coverage of roughly 95 percent (covr)
 ## R CMD check results
 0 errors | 0 warnings | 1-2 notes
 * Possibly mis-spelled words
-* sub-directories of 1Mb or more (varying from 4Mb to 12Mb, we are linking against RcppArmdaillo and RcppGSL) 
+* sub-directories of 1Mb or more (varying from 4Mb to 12Mb, we are linking against RcppArmadillo and RcppGSL)
