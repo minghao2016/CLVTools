@@ -8,6 +8,7 @@
 
 ### BUG FIXES
 * Pareto/NBD LogLikelihood: For the case Tcal = t.x and for the case alpha == beta
+* Static or dynamic covariates with syntactically invalid names (spaces, start with numbers, etc) could not be fit
 
 
 # CLVTools 0.6.0
